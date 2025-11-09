@@ -9,6 +9,6 @@
   },
   "rewrites": [
     { "source": "/api/(.*)", "destination": "/dist/index.js" },
-    { "source": "/(.*)", "destination": "/" }
+    { "source": "/(.*)", "destination": "/dist/public/index.html" }
   ]
 }
